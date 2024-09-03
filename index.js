@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
   foot.innerHTML = `${year} ${txt}`;
 
   const images = [
-    "mummy1.jpg",   "", "sci.jpg", "sirlaw pic.jpg",
+    "mummy1.jpg",   "stxt.jpg", "sci.jpg", "sirlaw pic.jpg",
     "really-like.webp",  "telescope.webp", "cake.jpg"
   ];
 
