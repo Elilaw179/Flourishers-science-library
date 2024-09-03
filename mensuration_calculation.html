@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mensuration Calculator</title>
+  <link rel="stylesheet" href="mensurations.css">
+  <style>
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Mensuration Calculator</h1>
+
+    <div class="form-group">
+      <label for="shape-select">Select a shape:</label>
+      <select id="shape-select">
+        <option value="">--Select--</option>
+        <option value="triangle">Area of a Triangle</option>
+        <option value="rectangle">Area of a Rectangle</option>
+        <option value="square-area">Area of a Square</option>
+        <option value="parallelogram">Area of a Parallelogram</option>
+        <option value="trapezium">Area of a Trapezium</option>
+        <option value="circle-area">Area of a Circle</option>
+        <option value="circle-circumference">Circumference of a Circle</option>
+        <option value="rectangle-perimeter">Perimeter of a Rectangle</option>
+        <option value="square-perimeter">Perimeter of a Square</option>
+      </select>
+    </div>
+
+    <div id="input-fields" class="input-fields"></div>
+
+    <button id="calculate-btn">Calculate</button>
+    <p id="result"></p>
+  </div>
+<script src="/src/mensurations.js"></script>
+ 
+</body>
+</html>

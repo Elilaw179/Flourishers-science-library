@@ -1,0 +1,74 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fa {
+  color:#212529; 
+  font-size: larger;
+  background-color: inherit;
+  padding: 3px;
+}
+
+.fa:hover{
+  background-color: rgb(241, 237, 237);
+  border-radius: 3px;
+  width: 25px;
+}
+.maths-topics {
+    background-color:#004085 ;
+    width: 100%;
+    height: auto; 
+    padding: 10px;
+  }
+  
+  .topic {
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+
+.topic select {
+    width: 100%;
+    height: 20px;
+    border: none;
+    padding-right: 30px; 
+    font-size: 13px; 
+    text-align: center; 
+    text-align-last: right; 
+   
+    border-radius: 5px; 
+    background-color: #f8f9fa; 
+    color: #212529; 
+    appearance: none; 
+    background-image: url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 4 5%22%3E%3Cpath fill=%22%23004085%22 d=%22M2 0L0 2h4zm0 5L0 3h4z%22/%3E%3C/svg%3E'); 
+    background-repeat: no-repeat;
+    background-position: right 10px center; 
+    background-size: 10px; 
+  }
+
+  .topic.selected {
+    background-color: #004085;
+    color: #ffffff;
+    position: relative;
+    top: -10px;
+    z-index: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  
+  .topic {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .topic span {
+    flex-grow: 1; 
+  }
+  
+  

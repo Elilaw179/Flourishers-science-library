@@ -1,0 +1,35 @@
+<div class="maths-formulas">
+    <h2>Modulo Formulas</h2>
+
+    <h3>1. Modulo Operation</h3>
+    <p>The modulo operation finds the remainder when one integer is divided by another. It is expressed as:</p>
+    <p><strong>a % b = r</strong></p>
+    <p>Where:</p>
+    <ul>
+        <li><strong>a</strong> is the dividend</li>
+        <li><strong>b</strong> is the divisor</li>
+        <li><strong>r</strong> is the remainder</li>
+    </ul>
+
+    <h3>2. Properties of Modulo</h3>
+    <p><strong>(a + b) % c = [(a % c) + (b % c)] % c</strong></p>
+    <p>This property is used to find the modulo of a sum.</p>
+    <p><strong>(a - b) % c = [(a % c) - (b % c) + c] % c</strong></p>
+    <p>This property is used to find the modulo of a difference.</p>
+    <p><strong>(a * b) % c = [(a % c) * (b % c)] % c</strong></p>
+    <p>This property is used to find the modulo of a product.</p>
+
+    <h3>3. Modulo Inverse</h3>
+    <p>The modulo inverse of an integer <strong>a</strong> with respect to modulus <strong>m</strong> is an integer <strong>x</strong> such that:</p>
+    <p><strong>(a * x) % m = 1</strong></p>
+    <p>This only exists if <strong>a</strong> and <strong>m</strong> are coprime.</p>
+
+    <h3>4. Modulo Exponentiation</h3>
+    <p>To calculate <strong>(a<sup>b</sup>) % c</strong> efficiently, we use modulo exponentiation:</p>
+    <p><strong>(a<sup>b</sup>) % c = [(a % c)<sup>b</sup> % c]</strong></p>
+
+    <h3>5. Division under Modulo</h3>
+    <p>To divide two numbers under modulo <strong>m</strong>, multiply the dividend by the modulo inverse of the divisor:</p>
+    <p><strong>(a / b) % m = [(a % m) * (b<sup>-1</sup> % m)] % m</strong></p>
+    <p>Where <strong>b<sup>-1</sup></strong> is the modulo inverse of <strong>b</strong> under <strong>m</strong>.</p>
+</div>
